@@ -31,6 +31,10 @@ a:focus {
     min-height: 640px;
 }
 
+.tm-section-contact {
+	min-height: auto;
+}
+
 .tm-section-home { background-image: url(../img/image-01.jpg); }
 .tm-section-about { background-image: url(../img/image-02.jpg); }
 .tm-section-services { background-image: url(../img/image-03.jpg); }
@@ -174,6 +178,23 @@ p {
     text-align: center;
     width: 100%;
 }
+.tm-fa-brands {
+	color: white;
+	text-align: center;
+}
+
+.social-block {
+	position: absolute;
+	right: 50px;
+	top: 25%;
+	width: 100px;
+}
+.social-block a{
+	display: block;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
 .tm-margin-b-0 { margin-bottom: 0; }
 
 .tm-section-testimonials { 
@@ -214,8 +235,6 @@ p {
 
 .tm-copyright-div {
 	padding: 0.5rem 2.4rem 0.5rem 1.2rem;
-	position: absolute;
-    bottom: 0;
     display: inline-block;
 }
 
@@ -248,6 +267,10 @@ p {
 		margin-top: 0;
 		margin-bottom: 0;
 	}
+}
+
+.tm-section-home {
+	position: relative;
 }
 
 @media screen and (max-height: 639px) {

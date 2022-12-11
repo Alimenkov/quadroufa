@@ -50,7 +50,7 @@ http://www.tooplate.com/view/2084-zipper
                                 <a class="nav-link" href="#testimonials">Отзывы</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#contact">Контакты</a>
+                                <a class="nav-link" href="#contact">Маршрут</a>
                             </li>
                         </ul>
                     </div>
@@ -64,10 +64,15 @@ http://www.tooplate.com/view/2084-zipper
                         <div class="col-lg-12">
                             <h1 class="text-uppercase tm-hero-title">Прогулка на квадроциклах</h1>
                             <p class="tm-hero-subtitle">исследуй неизведанное...</p>
-                            <p class="tm-hero-subtitle phone">+790988888</p>
+                            <p class="tm-hero-subtitle phone">+7(909)88888</p>
                         </div>
                     </div>
-                </div>                
+                </div>
+
+                <div class="social-block">
+                    <a href=""><i class="fa fa-4x fa-brands fa-vk tm-fa-brands"></i></a>
+                    <a href=""><i class="fa fa-4x fa-facebook tm-fa-brands"></i></a>
+                </div>
 
             </section>
             
@@ -134,34 +139,11 @@ http://www.tooplate.com/view/2084-zipper
             </section>
 
 
-            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A2e696e59144bc86bc87e9a409e9110bbad9da9edbc363afcf20eae6253d3a592&amp;source=constructor" width="100%" height="500" frameborder="0"></iframe>
 
             <!-- Section 5 -->
             <section class="tm-section tm-section-contact" id="contact">
-                <div class="tm-page-content-width">
-                    <div class="tm-bg-black-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding tm-textbox-padding-contact tm-content-box  tm-content-box-right">
-                        <h2 class="tm-section-title">Напишите нам</h2>
-                        
-                        <!-- contact form -->
-                        <form action="index.html" method="post" class="tm-contact-form">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab7df9e50f11467f1f4c1b1c57bf5b72f11877170c92e402aee343891413cd5d0&amp;source=constructor" width="100%" height="450" frameborder="0"></iframe>
 
-                            <div class="form-group">
-                                <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Ваше имя"  required/>
-                            </div>
-                
-                            <div class="form-group">                                                        
-                                <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Ваш Email"  required/>
-                            </div>                                                        
-                            
-                            <div class="form-group">
-                                <textarea id="contact_message" name="contact_message" class="form-control" rows="5" placeholder="Сообщение" required></textarea>
-                            </div> 
-
-                            <button type="submit" class="tm-submit-btn">Отправить</button>
-                        
-                        </form>  
-                    </div>
-                </div>
                 <div class="tm-bg-black-translucent tm-copyright-div">
                     <p class="tm-copyright-text">Copyright &copy; <?=date('Y')?> Уфа.Прокат</p>
                 </div>                
