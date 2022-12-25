@@ -31,124 +31,28 @@ http://www.tooplate.com/view/2084-zipper
 
         <div class="container-fluid">
             <!-- Navigation -->        
-            <div class="tm-nav">
-                <nav class="navbar">
 
-                    <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#tmNavbar"></button> <!-- &#9776; ☰ -->
-                    <div class="collapse navbar-toggleable-sm text-xs-center tm-navbar" id="tmNavbar">
-                        <ul class="nav navbar-nav">
-                            <li class="nav-item active selected">
-                                <a class="nav-link current" href="#home">Домой <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about">О нас</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#services">Сервисы</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#testimonials">Отзывы</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">Маршрут</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-            
-            <section class="tm-section tm-section-home tm-flex-center" id="home">                
-                
-                <div class="tm-hero">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h1 class="text-uppercase tm-hero-title">Прогулка на квадроциклах</h1>
-                            <p class="tm-hero-subtitle">исследуй неизведанное...</p>
-                            <p class="tm-hero-subtitle phone">+7(909)88888</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="social-block">
-                    <a href=""><i class="fa fa-4x fa-brands fa-vk tm-fa-brands"></i></a>
-                    <a href=""><i class="fa fa-4x fa-facebook tm-fa-brands"></i></a>
-                </div>
-
-            </section>
             
             <!-- Section 2 -->
-            <section class="tm-section tm-section-about" id="about">
+            <section class="tm-section tm-section-about" style="height: 1500px;" id="about">
 
                 <div class="tm-page-content-width">
-                    <div class="tm-bg-black-translucent tm-content-box tm-content-box-right tm-flex-center">
+                    <div style="margin: 0;max-width: 700px" class="tm-bg-black-translucent tm-content-box tm-content-box-right tm-flex-center">
                         <div class="tm-content-box-inner">
-                            <h2 class="tm-section-title">О нас</h2>
-                            <p>Aliquam sollicitudin mi sollicitudin justo viverra, nec posuere lorem fringilla. Morbi quam arcu, dignissim ac rutrum vel, hendrerit feugiat tortor. Ut vulputate eros non ante lobortis viverra.</p>
-                            <p>Vestibulum ut est lorem. Sed nec blandit lorem, eget iaculis quam. Mauris quis odio id sapien scelerisque mollis. Maecenas aliquet luctus erat sit amet aliquet. Vestibulum mattis porta tristique. Vivamus suscipit bibendum lorem, at efficitur enim hendrerit nec.</p>   
-                        </div>                        
+                            <h2 class="tm-section-title">Сайт находится в разработке</h2>
+                        </div>
                     </div>                    
                 </div>
                 
             </section>
-            
-            <!-- Section 3 -->
-            <section class="tm-section tm-section-services" id="services">
-
-                <div class="tm-page-content-width">
-                    <div class="tm-bg-black-translucent tm-content-box tm-flex-center">
-                        <div class="tm-content-box-inner">
-                            <h2 class="tm-section-title">Наши преимущества</h2>
-                            <p>Phasellus fringilla pharetra nunc sit amet fringilla. Vestibulum augue turpis, molestie sit amet odio eget, ornare mattis nisl.</p>
-                            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer ut justo arcu. Nullam a semper odio. Nam et conque libero, et placerat est.</p>
-                            <p>Integer consectetur hendrerit dolor, quis scelerisque risus mattis quis. Pellentesque dapibus ornare nisl. Fusce facilisis pulvinar magna. Class aptent taciti sociosqu.</p>
-                        </div>                        
-                    </div> 
-                </div>                
-            </section>
-
-            <!-- Section 4 -->
-            <section class="tm-section tm-section-testimonials" id="testimonials">
-                <div class="tm-page-content-width">
-                    <h2 class="tm-section-title tm-section-title-big text-xs-center tm-text-black">Отзывы</h2>
-                    <div class="row">
-                        <div class="tm-3-col-container">                                        
-                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 tm-3-col-textbox">
-                                <div class="text-xs-left tm-textbox tm-textbox-padding tm-bg-black-translucent tm-3-col-textbox-inner">
-                                    <i class="fa fa-4x fa-pagelines tm-fa"></i>
-                                                                               
-                                    <p class="tm-text tm-margin-b-0">Лучший прокат квадрациклов в Уфе, всем рекомендую..</p>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 tm-3-col-textbox">
-                                <div class="text-xs-left tm-textbox tm-textbox-padding tm-bg-black-translucent tm-3-col-textbox-inner">
-                                    <i class="fa fa-4x fa-thumbs-o-up tm-fa"></i>
-                                    
-                                    <p class="tm-text tm-margin-b-0">Nulla eget risus fringilla, fermentum arcu eu, vestibulum lorem. Aliquam imperdiet leo eget turpis ornare rhoncus. Sed tempor interdum sapien tempor.</p>
-                                </div>          
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 tm-3-col-textbox">
-                                <div class="text-xs-left tm-textbox tm-textbox-padding tm-bg-black-translucent tm-3-col-textbox-inner">
-                                    <i class="fa fa-4x fa-tree tm-fa"></i>
-                                    
-                                    <p class="tm-text tm-margin-b-0">Aenean porttitor a sapien non venenatis. Curabitur quis ex eu tellus tristique vestibulum id ac arcu. Fusce eu suscipit massa. Lorem ipsum dolor sit amet.</p>
-                                </div>          
-                            </div>                                        
-                        </div>
-                    </div>
-                </div>                
-            </section>
 
 
-
-            <!-- Section 5 -->
             <section class="tm-section tm-section-contact" id="contact">
-                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab7df9e50f11467f1f4c1b1c57bf5b72f11877170c92e402aee343891413cd5d0&amp;source=constructor" width="100%" height="450" frameborder="0"></iframe>
 
                 <div class="tm-bg-black-translucent tm-copyright-div">
                     <p class="tm-copyright-text">Copyright &copy; <?=date('Y')?> Уфа.Прокат</p>
-                </div>                
+                </div>
             </section>
-
         </div>
         
         <!-- load JS files -->
